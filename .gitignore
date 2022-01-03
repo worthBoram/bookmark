@@ -1,0 +1,6 @@
+*.pyc
+*~
+/venv
+__pycache__
+db.sqltie3
+.DS_Store

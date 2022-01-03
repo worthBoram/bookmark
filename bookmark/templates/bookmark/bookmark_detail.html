@@ -1,0 +1,8 @@
+{% extends 'base.html' %}<!-- 사용할 base html 선언-->
+
+{% block title %}Detail{% endblock %}
+
+{% block content %}
+    {{object.site_name}}<br/> <!-- DetailView 는 object 라는 이름으로 북마크 값을 전달한다-->
+    {{object.url}}
+{% endblock %}
